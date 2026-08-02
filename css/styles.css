@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 26cm;
+	margin: auto;
+}
+
+.mainContainer {
+	background-color: aqua;
+}
