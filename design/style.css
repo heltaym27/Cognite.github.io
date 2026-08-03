@@ -92,9 +92,27 @@ nav a.active,
   font-weight: bold;
 }
 
+/* ---------- Page wrapper (matches your actual class name) ---------- */
+.mainContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px 60px;
+}
+
+.mainContainer > p {
+  font-size: 1.1rem;
+}
+
+.mainContainer > a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 /* ---------- Hero / banner section ---------- */
 .hero,
-.banner {
+.banner,
+.header {
   background: linear-gradient(135deg, var(--plum) 0%, var(--plum-dark) 100%);
   color: var(--cream);
   text-align: center;
@@ -102,7 +120,8 @@ nav a.active,
 }
 
 .hero h1,
-.banner h1 {
+.banner h1,
+.header h1 {
   color: var(--cream);
   font-size: 3rem;
   display: inline-block;
