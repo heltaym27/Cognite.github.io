@@ -224,6 +224,46 @@ main p {
   font-size: 1.05rem;
 }
 
+/* ---------- Reports page (matches your app.js output) ---------- */
+#reports {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 20px 0 60px;
+}
+
+.report-card {
+  background-color: var(--lavender-light);
+  border: 1px solid var(--plum);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.report-card h3 {
+  color: var(--plum);
+  font-size: 1.4rem;
+  margin: 0 0 6px;
+  border-bottom: 2px solid var(--burnt-orange);
+  padding-bottom: 8px;
+}
+
+.report-card .report-date {
+  color: var(--burnt-orange);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0 0 10px;
+}
+
+.report-card .report-summary {
+  font-size: 1rem;
+  margin: 0 0 14px;
+}
+
+.report-card embed {
+  border: 1px solid var(--plum);
+  border-radius: 4px;
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: var(--lavender-light);
