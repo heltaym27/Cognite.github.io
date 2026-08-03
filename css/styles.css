@@ -1,13 +1,6 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	max-width: 26cm;
-	margin: auto;
-}
-
 .mainContainer {
-	background-color: aqua;
+  background-color: var(--cream);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px 60px;
 }
