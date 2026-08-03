@@ -1,0 +1,215 @@
+/* ============================================
+   COGNATE — DESIGN OVERRIDE STYLESHEET
+   Lavender / Plum Purple + Burnt Orange + Black Serif
+   Drop this file in a "design" folder and link it
+   AFTER your existing CSS files so it overrides them:
+   <link rel="stylesheet" href="../design/style.css">
+   ============================================ */
+
+:root {
+  --plum: #4B2E58;          /* deep plum purple - header/footer/accents */
+  --plum-dark: #3A2244;     /* darker plum for hover states */
+  --lavender: #A98FC2;      /* main lavender - section backgrounds */
+  --lavender-light: #C9B6DE;/* lighter lavender - card backgrounds */
+  --burnt-orange: #C1502E;  /* burnt orange - buttons, links, highlights */
+  --burnt-orange-dark: #A03F22;
+  --cream: #FBF8F5;         /* soft off-white background */
+  --black: #1A1414;         /* near-black text, warmer than pure black */
+  --border: #2E1F35;
+
+  --font-serif: Georgia, 'Times New Roman', Cambria, serif;
+}
+
+/* ---------- Global reset ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--black);
+  background-color: var(--cream);
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, li, td, th, label, blockquote {
+  font-family: var(--font-serif);
+  color: var(--black);
+}
+
+a {
+  font-family: var(--font-serif);
+  color: var(--burnt-orange);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--burnt-orange-dark);
+  text-decoration: underline;
+}
+
+/* ---------- Top navbar ---------- */
+nav,
+.navbar,
+header.site-header {
+  background-color: var(--cream);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo,
+.navbar .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+nav ul,
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a,
+.navbar a {
+  color: var(--black);
+  font-weight: normal;
+}
+
+nav a:hover,
+.navbar a:hover,
+nav a.active,
+.navbar a.active {
+  color: var(--burnt-orange);
+  font-weight: bold;
+}
+
+/* ---------- Hero / banner section ---------- */
+.hero,
+.banner {
+  background: linear-gradient(135deg, var(--plum) 0%, var(--plum-dark) 100%);
+  color: var(--cream);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1,
+.banner h1 {
+  color: var(--cream);
+  font-size: 3rem;
+  display: inline-block;
+  border: 2px solid var(--cream);
+  padding: 20px 50px;
+}
+
+/* ---------- Page title (e.g. "Publications") ---------- */
+.page-title {
+  text-align: center;
+  color: var(--burnt-orange);
+  font-size: 2.5rem;
+  font-style: italic;
+  padding: 40px 0;
+  background-color: var(--cream);
+}
+
+/* ---------- Section bands (e.g. "Latest Publications") ---------- */
+.section-band {
+  background-color: var(--lavender);
+  color: var(--cream);
+  padding: 12px 32px;
+  font-size: 1.1rem;
+}
+
+/* ---------- Publication / card grid ---------- */
+.publications-grid,
+.card-grid {
+  background-color: var(--plum);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+}
+
+.publication-card,
+.card {
+  text-align: center;
+}
+
+.publication-card .thumb,
+.card .thumb {
+  background-color: var(--lavender-light);
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.publication-card .thumb .plus,
+.card .thumb .plus {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--cream);
+  color: var(--plum);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.publication-card .caption,
+.card .caption {
+  color: var(--cream);
+  font-size: 0.95rem;
+}
+
+.publication-card .tags,
+.card .tags {
+  color: var(--lavender-light);
+  font-size: 0.85rem;
+}
+
+/* ---------- Buttons ---------- */
+.btn,
+button {
+  font-family: var(--font-serif);
+  background-color: var(--burnt-orange);
+  color: var(--cream);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover,
+button:hover {
+  background-color: var(--burnt-orange-dark);
+}
+
+/* ---------- Body copy sections ---------- */
+.about-text,
+main p {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  font-size: 1.05rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: var(--lavender-light);
+  color: var(--black);
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
