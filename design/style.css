@@ -92,7 +92,7 @@ nav a.active,
   font-weight: bold;
 }
 
-/* ---------- Page wrapper (matches your actual class name) ---------- */
+/* ---------- Page wrapper  ---------- */
 .mainContainer {
   background-color: var(--cream);
   max-width: 900px;
@@ -130,7 +130,7 @@ nav a.active,
   padding: 20px 50px;
 }
 
-/* ---------- Page title (e.g. "Publications") ---------- */
+/* ---------- Page title ---------- */
 .page-title {
   text-align: center;
   color: var(--burnt-orange);
@@ -140,7 +140,7 @@ nav a.active,
   background-color: var(--cream);
 }
 
-/* ---------- Section bands (e.g. "Latest Publications") ---------- */
+/* ---------- Section bands ---------- */
 .section-band {
   background-color: var(--lavender);
   color: var(--cream);
@@ -225,7 +225,7 @@ main p {
   font-size: 1.05rem;
 }
 
-/* ---------- Reports page (matches your app.js output) ---------- */
+/* ---------- Reports page  ---------- */
 #reports {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
