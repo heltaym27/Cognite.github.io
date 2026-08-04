@@ -2,5 +2,6 @@
 	"title" : "Repo 1",
 	"date" : "29/07/2026",
 	"summary" : "HI this is a report 1",
-	"authors" : "James"
+	"authors" : "James",
+	"tags" : "Psychology, Neuroscience"
 }
