@@ -54,7 +54,7 @@ a:hover {
 nav,
 .navbar,
 header.site-header {
-  background-color: var(--cream);
+  background-color: var(--plum-dark);
   border-bottom: 1px solid var(--border);
   padding: 16px 32px;
   display: flex;
@@ -66,7 +66,7 @@ nav .logo,
 .navbar .logo {
   font-size: 1.4rem;
   font-weight: bold;
-  color: var(--black);
+  color: var(--cream);
 }
 
 nav ul,
@@ -80,7 +80,7 @@ nav ul,
 
 nav a,
 .navbar a {
-  color: var(--black);
+  color: var(--cream);
   font-weight: normal;
 }
 
