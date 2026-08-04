@@ -7,12 +7,12 @@
    ============================================ */
 
 :root {
-  --plum: #3B2470;          /* deep cool indigo-plum - header/footer/accents */
-  --plum-dark: #1F1440;     /* near-black indigo for hover/gradient depth */
-  --lavender: #7C58C4;      /* mid cool violet - section backgrounds */
-  --lavender-light: #C9B8EF;/* light cool lavender - card backgrounds */
-  --burnt-orange: #B5562E;  /* burnished orange - buttons, links, highlights */
-  --burnt-orange-dark: #8F4322;
+  --plum: #5F4B8B;          /* Pantone 18-3838 Ultra Violet - header/footer/accents */
+  --plum-dark: #453569;     /* darker Ultra Violet for hover/gradient depth */
+  --lavender: #8A7AB0;      /* mid desaturated lavender - section backgrounds */
+  --lavender-light: #C7BEDD;/* light desaturated lavender - card backgrounds */
+  --burnt-orange: #C1440E;  /* Pantone 18-1249 Hawaiian Sunset - buttons, links, highlights */
+  --burnt-orange-dark: #8F330A;
   --cream: #FBF8F5;         /* soft off-white background */
   --black: #1A1414;         /* near-black text, warmer than pure black */
   --border: #2E1F35;
