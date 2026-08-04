@@ -273,3 +273,125 @@ footer {
   padding: 20px;
   font-style: italic;
 }
+
+/* ---------- Homepage preview grid ("Latest Publications") ---------- */
+.reports-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.preview-card {
+  display: block;
+  text-decoration: none;
+  color: var(--black);
+  text-align: center;
+}
+
+.preview-card .preview-thumb {
+  background-color: var(--lavender-light);
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.preview-card .preview-thumb .plus {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--cream);
+  color: var(--plum);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-card h4 {
+  margin: 4px 0;
+  font-size: 1.05rem;
+  color: var(--plum);
+}
+
+.preview-card .preview-tags {
+  font-size: 0.85rem;
+  color: var(--burnt-orange);
+}
+
+.see-more-wrap {
+  text-align: right;
+  margin: -10px 0 30px;
+}
+
+.see-more-link {
+  font-weight: bold;
+}
+
+/* ---------- FAQ section ---------- */
+.faq-section {
+  padding: 20px 0 50px;
+}
+
+.faq-section h2 {
+  color: var(--plum);
+  border-bottom: 2px solid var(--burnt-orange);
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 16px;
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.faq-answer {
+  margin: 0;
+}
+
+/* ---------- Tag pills on report cards ---------- */
+.report-tags {
+  margin: 6px 0;
+}
+
+.tag-pill {
+  display: inline-block;
+  background-color: var(--burnt-orange);
+  color: var(--cream);
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-right: 6px;
+}
+
+.report-authors {
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+/* ---------- Contact page ---------- */
+.contact-links {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0 60px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  background-color: var(--burnt-orange);
+  color: var(--cream);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.contact-links a:hover {
+  background-color: var(--burnt-orange-dark);
+  color: var(--cream);
+}
