@@ -125,11 +125,12 @@ nav a.active,
 .hero h1,
 .banner h1,
 .header h1 {
-  color: var(--cream);
+  color: var(--black);
   font-size: 3rem;
   display: inline-block;
-  border: 2px solid var(--cream);
+  border: 2px solid var(--black);
   padding: 20px 50px;
+  background-color: rgba(251, 248, 245, 0.55);
 }
 
 /* ---------- Page title ---------- */
