@@ -1,10 +1,3 @@
-/* ============================================
-   COGNATE — DESIGN OVERRIDE STYLESHEET
-   Lavender / Plum Purple + Burnt Orange + Black Serif
-   Drop this file in a "design" folder and link it
-   AFTER your existing CSS files so it overrides them:
-   <link rel="stylesheet" href="../design/style.css">
-   ============================================ */
 
 :root {
   --plum: #5F4B8B;          /* Pantone 18-3838 Ultra Violet - header/footer/accents */
@@ -110,7 +103,7 @@ nav a.active,
   font-weight: bold;
 }
 
-/* ---------- Hero / banner section ---------- */
+/* ---------- Banner section ---------- */
 .hero,
 .banner,
 .header {
@@ -151,7 +144,7 @@ nav a.active,
   font-size: 1.1rem;
 }
 
-/* ---------- Publication / card grid ---------- */
+/* ---------- Publication grid ---------- */
 .publications-grid,
 .card-grid {
   background-color: var(--plum);
@@ -359,7 +352,7 @@ footer {
   margin: 0;
 }
 
-/* ---------- Tag pills on report cards ---------- */
+/* ---------- Tags on report cards ---------- */
 .report-tags {
   margin: 6px 0;
 }
