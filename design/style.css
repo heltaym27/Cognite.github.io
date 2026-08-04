@@ -114,7 +114,9 @@ nav a.active,
 .hero,
 .banner,
 .header {
-  background: linear-gradient(135deg, var(--plum) 0%, var(--plum-dark) 100%);
+  background:
+    url('/media/hero-art.png') center/cover no-repeat,
+    linear-gradient(135deg, var(--plum) 0%, var(--plum-dark) 100%);
   color: var(--cream);
   text-align: center;
   padding: 60px 20px;
